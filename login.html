@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Back || ZEPHYR</title>
+
+     <!-- CSS Bootstrap -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+     <!-- CSS Custom -->
+     <link rel="stylesheet" href="style.css">
+ 
+     <!-- Favicon -->
+     <link rel="shortcut icon" href="Components/Logo.svg" type="image/x-icon">
+ 
+     <!-- Google Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="overflow-auto login-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-7 col-10 position-absolute top-50 start-50 translate-middle login-card">
+              <a href="index.html" class="back w-100 text-center mx-auto">Back to Home Page</a>
+                <div class="card-contact login mt-3">
+                  <form action="">
+                    <h2>Sign In</h2>
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control bg-color" id="floatingInput" placeholder="name@example.com" style="height: 47px;">
+                      <label for="floatingInput" class="text-color">Email</label>
+                    </div>
+  
+                    <div class="form-floating mb-3 password">
+                      <input type="password" class="form-control bg-color" id="floatingInput" placeholder="name@example.com" style="height: 47px;">
+                      <label for="floatingInput" class="text-color">Password</label>
+                      <a href="#" class="bawah-pw">Forgot Your Password?</a>
+                    </div>
+
+                    <button class="button-kontak d-flex justify-content-center align-items-center">
+                      SIGN IN 
+                      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                        <g clip-path="url(#clip0_2808_44)">
+                          <path d="M24.1967 12.0307L19.18 4.83117C18.6423 4.05974 17.9261 3.42973 17.0925 2.99481C16.2588 2.55989 15.3323 2.33295 14.392 2.33333H9.91667C8.73369 2.33734 7.57962 2.69921 6.60615 3.37137C5.63269 4.04353 4.88539 4.99452 4.4625 6.09933L2.04517 12.474C1.41533 12.9017 0.899682 13.4769 0.543202 14.1496C0.186723 14.8223 0.000233777 15.572 0 16.3333L0 18.0833C0.000957657 18.7554 0.233535 19.4066 0.65855 19.9273C1.08356 20.4479 1.67504 20.8062 2.33333 20.9417V21.5833C2.33333 22.6663 2.76354 23.7049 3.52931 24.4707C4.29509 25.2365 5.3337 25.6667 6.41667 25.6667C7.49963 25.6667 8.53825 25.2365 9.30402 24.4707C10.0698 23.7049 10.5 22.6663 10.5 21.5833V21H17.5V21.5833C17.5 22.6663 17.9302 23.7049 18.696 24.4707C19.4618 25.2365 20.5004 25.6667 21.5833 25.6667C22.6663 25.6667 23.7049 25.2365 24.4707 24.4707C25.2365 23.7049 25.6667 22.6663 25.6667 21.5833V20.9417C26.325 20.8062 26.9164 20.4479 27.3415 19.9273C27.7665 19.4066 27.999 18.7554 28 18.0833V17.5C27.9983 16.3095 27.6332 15.148 26.9536 14.1706C26.2739 13.1932 25.3121 12.4466 24.1967 12.0307ZM17.2667 6.16467L21.098 11.6667H12.8333V4.66667H14.392C14.9564 4.66606 15.5127 4.80197 16.0132 5.06281C16.5138 5.32365 16.9438 5.70168 17.2667 6.16467ZM6.65 6.9265C6.90328 6.26446 7.35074 5.69442 7.93368 5.29115C8.51662 4.88788 9.20784 4.6702 9.91667 4.66667H10.5V11.6667H4.84633L6.65 6.9265ZM8.16667 21.5833C8.16667 22.0475 7.98229 22.4926 7.6541 22.8208C7.32591 23.149 6.8808 23.3333 6.41667 23.3333C5.95254 23.3333 5.50742 23.149 5.17923 22.8208C4.85104 22.4926 4.66667 22.0475 4.66667 21.5833V21H8.16667V21.5833ZM21.5833 23.3333C21.1192 23.3333 20.6741 23.149 20.3459 22.8208C20.0177 22.4926 19.8333 22.0475 19.8333 21.5833V21H23.3333V21.5833C23.3333 22.0475 23.149 22.4926 22.8208 22.8208C22.4926 23.149 22.0475 23.3333 21.5833 23.3333ZM25.6667 18.0833C25.6667 18.238 25.6052 18.3864 25.4958 18.4958C25.3864 18.6052 25.238 18.6667 25.0833 18.6667H2.91667C2.76196 18.6667 2.61358 18.6052 2.50419 18.4958C2.39479 18.3864 2.33333 18.238 2.33333 18.0833V16.3333C2.33333 15.7145 2.57917 15.121 3.01675 14.6834C3.45434 14.2458 4.04783 14 4.66667 14H22.1667C23.0949 14 23.9852 14.3687 24.6415 15.0251C25.2979 15.6815 25.6667 16.5717 25.6667 17.5V18.0833Z" fill="white"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_2808_44">
+                            <rect width="28" height="28" fill="white"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </button>
+
+                    <div class="sign-in-opsi">
+                        <span>Or Sign In with</span>
+                        <div class="sign-in-opsi-icon mb-5">
+                            <a href="#" class="google sign-in-opsi-btn">
+                              <i class='bx bxl-google'></i>
+                                Google
+                            </a>
+
+                            <a href="#" class="apple sign-in-opsi-btn">
+                              <i class='bx bxl-apple'></i>
+                                Apple
+                            </a>
+                        </div>
+
+                        <span class="sign-up-btn my-4 text-center w-100">Don't have an account? <a href="register.html">Sign Up</a></span>
+                    </div>
+                    
+                   
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="only-white-bg"></div> -->
+
+</body>
+</html>
